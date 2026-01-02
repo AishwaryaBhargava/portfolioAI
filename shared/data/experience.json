@@ -2,6 +2,7 @@
   "sections": [
     {
       "title": "Professional Experience",
+      "collapsed": false,
       "category": "industry",
       "items": [
         {
@@ -126,6 +127,7 @@
     },
     {
       "title": "Academic & Leadership",
+      "collapsed": false,
       "category": "academic",
       "items": [
         {

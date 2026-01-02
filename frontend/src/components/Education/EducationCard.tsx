@@ -1,5 +1,10 @@
-import { useState } from "react";
 import styles from "./Education.module.css";
+
+interface HonorItem {
+    label: string;
+    icon: string;
+    description: string;
+}
 
 interface Education {
     id: string;
@@ -10,7 +15,7 @@ interface Education {
     duration: string;
     gpa: string;
     keyCoursework: string[];
-    honorsAndLeadership: string[];
+    honorsAndLeadership: HonorItem[];
     // fullCoursework?: Record<string, string[]>;
 }
 
@@ -19,7 +24,15 @@ export default function EducationCard({
 }: {
     education: Education;
 }) {
-    const [expanded, setExpanded] = useState(false);
+    const iconMap: Record<string, string> = {
+        trophy: "🏆",
+        award: "🎓",
+        star: "⭐",
+        leadership: "👥",
+        globe: "🌍",
+        megaphone: "📣",
+        leaf: "🍃",
+    };
 
     return (
         <div className={styles.card}>
@@ -54,19 +67,12 @@ export default function EducationCard({
                 {education.honorsAndLeadership.map((item) => (
                     <span key={item.label} className={styles.honorChip}>
                         <span className={styles.icon}>
-                            {item.icon === "trophy" && "🏆"}
-                            {item.icon === "award" && "🎓"}
-                            {item.icon === "star" && "⭐"}
-                            {item.icon === "leadership" && "👥"}
-                            {item.icon === "globe" && "🌍"}
-                            {item.icon === "megaphone" && "📣"}
-                            {item.icon === "leaf" && "🍃"}
+                            {iconMap[item.icon] ?? ""}
                         </span>
                         {item.label}
                     </span>
                 ))}
             </div>
-
 
             {/* Expand coursework */}
             {/* {education.fullCoursework && (

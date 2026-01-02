@@ -1,8 +1,6 @@
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import Section from "./components/Section/Section";
-import { SECTIONS } from "./config/sections";
-
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Experience from "./components/Experience/Experience";
