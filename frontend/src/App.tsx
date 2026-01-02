@@ -57,11 +57,6 @@ function App() {
         <Contact />
       </Section>
       
-      {/* Placeholder sections */}
-      {SECTIONS.filter(s => s.id !== "about").map(section => (
-        <Section key={section.id} id={section.id} />
-      ))}
-
       <Footer />
     </>
   );

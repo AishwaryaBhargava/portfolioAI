@@ -18,8 +18,9 @@
 }
 
 .logo {
-  font-weight: 700;
-  font-size: 1.1rem;
+  font-weight: 800;
+  font-size: 1.8rem;
+  letter-spacing: 0.2px;
   color: var(--text-main);
   cursor: pointer;
 }
@@ -32,7 +33,7 @@
 .link {
   background: transparent;
   border: none;
-  font-size: 0.95rem;
+  font-size: 1.00rem;
   cursor: pointer;
   color: var(--text-main);
   padding: 6px 12px;

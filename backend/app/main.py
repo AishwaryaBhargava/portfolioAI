@@ -7,7 +7,8 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:5173",   # Vite dev
+        "http://localhost:5173",
+        "https://portfolioai-4tpg.onrender.com",
     ],
     allow_credentials=True,
     allow_methods=["*"],          # <-- allows OPTIONS
