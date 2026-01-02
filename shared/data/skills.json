@@ -1,0 +1,105 @@
+{
+    "categories": [
+        {
+            "id": "programming",
+            "label": "Programming Languages",
+            "icon": "/skills_logos/programming.svg",
+            "skills": [
+                "Python",
+                "JavaScript",
+                "TypeScript",
+                "C",
+                "HTML",
+                "CSS",
+                "MySQL"
+            ]
+        },
+        {
+            "id": "cloud-ai",
+            "label": "Cloud & AI Platforms",
+            "icon": "/skills_logos/cloud.svg",
+            "skills": [
+                "Google Cloud Platform",
+                "Microsoft Azure AI",
+                "OpenAI",
+                "Anthropic Claude",
+                "Google Gemini",
+                "Perplexity",
+                "Hugging Face",
+                "Ollama"
+            ]
+        },
+        {
+            "id": "ml-ai",
+            "label": "Machine Learning & AI",
+            "icon": "/skills_logos/ml.jpg",
+            "skills": [
+                "Large Language Models (LLMs)",
+                "Retrieval-Augmented Generation (RAG)",
+                "Natural Language Processing",
+                "Computer Vision",
+                "OpenCV",
+                "Robotic Process Automation (RPA)"
+            ]
+        },
+        {
+            "id": "web",
+            "label": "Web & Backend Development",
+            "icon": "/skills_logos/web.jpg",
+            "skills": [
+                "React",
+                "Node.js",
+                "Flask",
+                "FastAPI",
+                "Bootstrap",
+                "Tailwind CSS",
+                "Shadcn UI"
+            ]
+        },
+        {
+            "id": "tools",
+            "label": "Developer Tools & Automation",
+            "icon": "/skills_logos/tools.png",
+            "skills": [
+                "Git",
+                "GitHub",
+                "Docker",
+                "Ansible",
+                "UiPath",
+                "Postman",
+                "Swagger",
+                "VS Code"
+            ]
+        },
+        {
+            "id": "data",
+            "label": "Data & Distributed Systems",
+            "icon": "/skills_logos/database.png",
+            "skills": [
+                "PostgreSQL",
+                "MongoDB",
+                "Pinecone",
+                "pgvector",
+                "Hadoop",
+                "MapReduce",
+                "HDFS",
+                "Distributed Systems"
+            ]
+        },
+        {
+            "id": "product",
+            "label": "Product & Delivery",
+            "icon": "/skills_logos/document.jpg",
+            "skills": [
+                "Agile / Scrum",
+                "JIRA",
+                "Product Requirement Documents (PRDs)",
+                "User Stories",
+                "Roadmapping",
+                "Stakeholder Communication",
+                "MVP Definition",
+                "Metrics & Outcome Tracking"
+            ]
+        }
+    ]
+}

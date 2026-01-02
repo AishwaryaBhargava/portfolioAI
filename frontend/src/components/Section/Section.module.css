@@ -1,0 +1,6 @@
+.section {
+  min-height: 100vh;
+  padding: 100px 24px 64px;
+  scroll-margin-top: 80px;
+  background: var(--bg-main);
+}

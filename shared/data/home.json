@@ -1,0 +1,45 @@
+{
+  "name": "Aishwarya Bhargava",
+  "roles": [
+    "Software Engineer",
+    "AI Engineer",
+    "Agentic AI Engineer",
+    "RPA Developer",
+    "Data Scientist",
+    "Data Engineer",
+    "Prompt Engineer",
+    "Product Manager"
+  ],
+  "tagline": "Engineering intelligent, automated systems where software, AI, and product thinking meet real-world impact.",
+  "keywords": [
+    "AI Systems",
+    "Intelligent Automation",
+    "Agentic AI",
+    "RPA",
+    "Scalable Software"
+  ],
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/aishwarya-bhargava05",
+    "github": "https://github.com/AishwaryaBhargava",
+    "resume": "https://drive.google.com/drive/folders/1MaZKPmvVHbFVT94NXRryDUHFQ25ns2w1?usp=sharing",
+    "email": "mailto:aishwarya.bhargava1198@gmail.com"
+  },
+  "stats": [
+    {
+      "value": "4+ Years",
+      "label": "AI & Automation Experience"
+    },
+    {
+      "value": "20+ Projects",
+      "label": "Real-World Systems Built"
+    },
+    {
+      "value": "AI + RPA",
+      "label": "Production-Grade Systems"
+    },
+    {
+      "value": "End-to-End",
+      "label": "Design to Deployment"
+    }
+  ]
+}

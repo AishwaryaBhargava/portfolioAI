@@ -1,0 +1,147 @@
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+/* HEADER */
+.header {
+  margin-bottom: 28px;
+}
+
+.title {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.underline {
+  width: 72px;
+  height: 4px;
+  background: var(--accent);
+  margin-top: 6px;
+  border-radius: 2px;
+}
+
+/* SECTION */
+.section {
+  margin-bottom: 48px;
+}
+
+.sectionTitle {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* CARDS */
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 14px;
+}
+
+.collapsed {
+  opacity: 0.9;
+}
+
+/* CARD HEADER */
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.company {
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.role {
+  font-size: 0.9rem;
+  margin-top: 4px;
+}
+
+.duration {
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+
+/* HIGHLIGHTS */
+.highlights {
+  padding-left: 18px;
+  margin-bottom: 14px;
+}
+
+.highlights li {
+  margin-bottom: 4px;
+  line-height: 1.45;
+}
+
+.highlights strong {
+  font-weight: 700;
+}
+
+/* METRICS */
+.metrics {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.metricChip {
+  background: var(--bg-main);
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  white-space: nowrap;
+  border: 2px solid var(--accent);
+}
+
+/* AWARDS */
+.awards {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.awardBadge {
+  background: var(--chip-bg);
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.companyRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  border-radius: 6px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .cardHeader {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .duration {
+    margin-top: 4px;
+  }
+}

@@ -1,0 +1,96 @@
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 0; /* fixes hero → about gap */
+}
+
+/* TITLE */
+.header {
+  margin-bottom: 28px;
+}
+
+.title {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.underline {
+  width: 72px;
+  height: 4px;
+  background: var(--accent);
+  margin-top: 6px;
+  border-radius: 2px;
+}
+
+/* GRID */
+.contentGrid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 40px;
+  align-items: start;
+}
+
+/* TEXT */
+.text p {
+  margin-bottom: 16px;
+  line-height: 1.75;
+  font-size: 1rem;
+}
+
+/* IMAGE */
+.imageWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.imageWrapper img {
+  width: 100%;
+  max-width: 280px;
+  border-radius: 14px;
+  object-fit: cover;
+}
+
+/* METRICS */
+.metrics {
+  margin-top: 20px;
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.metricChip {
+  background: #ffffff;
+  padding: 8px 16px;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.text strong {
+  font-weight: 700;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .contentGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .underline {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .text {
+    text-align: center;
+  }
+
+  .metrics {
+    justify-content: center;
+  }
+}

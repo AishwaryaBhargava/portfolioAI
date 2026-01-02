@@ -1,0 +1,219 @@
+{
+  "sections": [
+    {
+      "title": "Professional Experience",
+      "category": "industry",
+      "items": [
+        {
+          "company": "PM Accelerator",
+          "logo": "pm-accelerator.jpg",
+          "role": "AI Engineer Intern",
+          "type": "Internship",
+          "duration": "Sep 2025 – Present",
+          "highlights": [
+            "Designed, built, and shipped **TruNorth**, an AI-powered career navigation platform, owning the full lifecycle from product ideation to deployment; **won 3rd place** for technical execution and real-world applicability.",
+            "Developed **production-grade GenAI features** using LLMs, prompt engineering, and full-stack integrations, translating ambiguous product requirements into scalable, user-facing AI workflows.",
+            "Built **secure and reliable data pipelines** to support AI inference and product features, ensuring consistency and stability across multiple application components.",
+            "Collaborated cross-functionally with product managers, designers, and data scientists in agile sprints, researching **LLMs and GenAI system design** and delivering actionable recommendations to guide product decisions."
+          ],
+          "metrics": [
+            "Award-winning AI product",
+            "End-to-end AI system ownership",
+            "Production GenAI workflows"
+          ]
+        },
+        {
+          "company": "C1 (ConvergeOne)",
+          "logo": "c1.jpg",
+          "role": "AI Agent Developer Intern",
+          "type": "Internship",
+          "duration": "Jun 2024 – Aug 2024",
+          "highlights": [
+            "Owned AI agent development for a large-scale healthcare deployment, designing and optimizing Dialogflow CX routes, menus, and UAT workflows that supported **50,000+ successful voice calls** and enabled **120+ automated appointment cancellations**.",
+            "Built and productionized **500+ enterprise-grade prompts**, converting them into Generative AI bots handling translation, summarization, research, and internal knowledge workflows.",
+            "Engineered **mega-prompts** by consolidating fragmented prompt logic into scalable, multi-capability AI workflows, expanding GenAI adoption across multiple business verticals.",
+            "Conducted competitive research on **Genesys Generative AI Cloud**, benchmarking capabilities against internal platforms and delivering insights that influenced **enterprise AI strategy and product direction**."
+          ],
+          "metrics": [
+            "50,000+ production calls",
+            "500+ prompts deployed",
+            "Enterprise agentic AI systems"
+          ],
+          "awards": [
+            "🏆 Be Bold Award",
+            "⭐ Be Bold E-Card",
+            "⭐ Be One E-Card"
+          ]
+        },
+        {
+          "company": "Allianz Partners (AWP)",
+          "logo": "allianz.png",
+          "role": "Assistant Manager – RPA (Robotic Process Automation)",
+          "type": "Full-time",
+          "duration": "Dec 2021 – Jun 2023",
+          "highlights": [
+            "Spearheaded stabilization and optimization of **20+ critical RPA bots** across APAC and global regions, restoring previously non-functional workflows to production within **2 months**.",
+            "Led a complex **end-to-end financial automation** integrating SAP, Blackline, macros, web, and desktop automation, unlocking **5–6 days of quarterly reporting capacity** for finance teams.",
+            "Designed and deployed **global HR and invoice automations**, eliminating **14–18 manual hrs/day** and improving operational throughput across hiring and finance operations."
+          ],
+          "metrics": [
+            "20+ bots stabilized",
+            "Quarterly finance capacity unlocked",
+            "Global automation impact"
+          ],
+          "awards": [
+            "🏆 Champ of the Month (Dec 2022)",
+            "🏆 Champ of the Month (Jun 2022)"
+          ]
+        },
+        {
+          "company": "Utopia Global Inc. (Prometheus Group Company)",
+          "logo": "utopia.png",
+          "role": "RPA Developer",
+          "type": "Full-time",
+          "duration": "Aug 2021 – Nov 2021",
+          "highlights": [
+            "Designed and deployed **enterprise-scale RPA solutions** across operations, analytics, HR, and PMO functions, driving automation adoption company-wide.",
+            "Engineered data-intensive reporting and document processing automations, reducing processing time by **40–50%** and improving accuracy and reliability.",
+            "Delivered a portfolio of cross-functional automations that collectively unlocked **14–18 hrs/day of operational capacity**, earning direct recognition from executive leadership."
+          ],
+          "metrics": [
+            "40–50% process time reduction",
+            "14–18 hrs/day capacity unlocked",
+            "Executive-visible delivery"
+          ],
+          "awards": [
+            "🏆 SPOT of the Month (Apr 2021)",
+            "🏆 SPOT of the Month (Aug 2020)",
+            "⭐ CEO/COO Recognition"
+          ]
+        },
+        {
+          "company": "Utopia Global Inc. (Prometheus Group Company)",
+          "logo": "utopia.png",
+          "role": "RPA Developer Intern (EAM Automation)",
+          "type": "Internship",
+          "duration": "Jan 2020 – Aug 2020",
+          "highlights": [
+            "Engineered **end-to-end invoice processing automation** for Finance teams, reducing manual effort and saving **3–4 hrs/day**.",
+            "Built an **RPA-driven talent sourcing solution** automating candidate discovery from LinkedIn, cutting recruitment cycles by **2–3 days per execution**.",
+            "Led early **RPA cost–benefit analysis** using UiPath and presented findings to **CEO, CTO, and COO**, directly influencing organization-wide automation adoption."
+          ],
+          "metrics": [
+            "Early RPA adoption driver",
+            "Finance & HR automation",
+            "Executive-facing impact"
+          ]
+        },
+        {
+          "company": "LinuxWorld Informatics Pvt. Ltd.",
+          "logo": "lw.jpg",
+          "role": "Software Development Intern",
+          "type": "Internship",
+          "duration": "Jun 2018 – Jul 2018",
+          "highlights": [
+            "Built and managed **Linux-based infrastructure** using RedHat, Docker, and Ansible, automating deployments to improve system reliability.",
+            "Designed and operated **HDFS and MapReduce clusters**, analyzing distributed data processing and transfer workflows.",
+            "Developed **Python CGI-based web applications** and explored foundational data analysis and machine learning concepts."
+          ],
+          "metrics": [
+            "Linux & systems engineering",
+            "Containerized deployments",
+            "Distributed data processing"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Academic & Leadership",
+      "category": "academic",
+      "items": [
+        {
+          "company": "University of Pittsburgh",
+          "logo": "upitt.svg",
+          "role": "Course Facilitator – Responsible Data Science",
+          "type": "Part-time",
+          "duration": "Aug 2024 – Aug 2025",
+          "highlights": [
+            "Delivered structured instruction on **responsible and ethical data science** to **150+ students**, translating real-world AI ethics cases into applied learning.",
+            "Owned grading and evaluation workflows, consistently recognized for **fair, accurate, and constructive feedback**.",
+            "Strengthened ethical reasoning in applied data science through case-based analysis and guided discussion."
+          ],
+          "metrics": [
+            "150+ students taught",
+            "Ethical AI instruction",
+            "Academic leadership"
+          ]
+        },
+        {
+          "company": "University of Pittsburgh",
+          "logo": "upitt.svg",
+          "role": "Vice President – SCIGSO (School of Computing and Information Graduate Student Organization)",
+          "type": "Full-time",
+          "duration": "Apr 2024 – Apr 2025",
+          "highlights": [
+            "Served as Vice President of the Graduate Student Organization, leading initiatives supporting academic growth and professional development.",
+            "Spearheaded workshops, seminars, and networking events connecting students with faculty and industry professionals.",
+            "Worked closely with faculty and administration to represent student interests and strengthen graduate community engagement."
+          ],
+          "metrics": [
+            "Graduate leadership",
+            "Community impact",
+            "Large-scale coordination"
+          ]
+        },
+        {
+          "company": "University of Pittsburgh",
+          "logo": "upitt.svg",
+          "role": "Mentor – Global Graduate Ties",
+          "type": "Full-time",
+          "duration": "Jul 2024 – Apr 2025",
+          "highlights": [
+            "Mentored international graduate students through academic, cultural, and administrative transitions.",
+            "Provided one-on-one academic and resource guidance to support student success.",
+            "Fostered community belonging through structured engagement and mentorship."
+          ],
+          "metrics": [
+            "International student mentorship",
+            "Community building",
+            "Student success support"
+          ]
+        },
+        {
+          "company": "University of Pittsburgh",
+          "logo": "upitt.svg",
+          "role": "CLAS (Center for Latin American Studies) Tech Assistant",
+          "type": "Part-time",
+          "duration": "Aug 2023 – Apr 2024",
+          "highlights": [
+            "Led modernization of the CLAS website, improving usability and engagement across stakeholders.",
+            "Owned database migration and optimization initiatives, improving system reliability and data accessibility.",
+            "Provided department-wide technical support to maintain stable academic and administrative systems."
+          ],
+          "metrics": [
+            "Web platform modernization",
+            "Database migration & optimization",
+            "Department-wide technical support"
+          ]
+        },
+        {
+          "company": "University of Pittsburgh",
+          "logo": "upitt.svg",
+          "role": "Teaching Assistant – BUSBIS 0100",
+          "type": "Part-time",
+          "duration": "Oct 2023 – Dec 2023",
+          "highlights": [
+            "Delivered structured **Python programming instruction** to **500+ students**, emphasizing practical application and conceptual clarity.",
+            "Owned large-scale grading and evaluation workflows, ensuring fairness and consistency.",
+            "Implemented clear feedback mechanisms that improved student engagement and learning outcomes."
+          ],
+          "metrics": [
+            "500+ students supported",
+            "Large-scale academic evaluation",
+            "Instructional impact"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,673 @@
+{
+    "featured": [
+        "grounded-ai",
+        "trunorth-ai",
+        "live-transcriber"
+    ],
+    "categories": [
+        {
+            "id": "ai-systems",
+            "label": "AI Systems & LLMs"
+        },
+        {
+            "id": "full-stack",
+            "label": "Full-Stack"
+        },
+        {
+            "id": "automation-rpa",
+            "label": "Automation & RPA"
+        },
+        {
+            "id": "distributed-systems",
+            "label": "Distributed Systems"
+        },
+        {
+            "id": "foundations",
+            "label": "Foundations"
+        }
+    ],
+    "projects": [
+        {
+            "id": "grounded-ai",
+            "title": "GroundedAI",
+            "subtitle": "Document-Grounded Q&A Platform with Verifiable Citations",
+            "primaryCategory": "ai-systems",
+            "categories": [
+                "ai-systems",
+                "full-stack"
+            ],
+            "description": "A production-grade, hallucination-resistant document intelligence platform that answers questions strictly from user-uploaded files using enforced **RAG** rules and **citation-level traceability**.",
+            "highlights": [
+                "Architected and delivered a complete end-to-end **RAG pipeline** (ingestion → chunking → embeddings → retrieval → answer generation), enforcing strict grounding rules that explicitly refuse unsupported queries and eliminate hallucinations",
+                "Engineered **citation-first answering** with traceability down to document ID, chunk index, and page range, enabling verifiable, auditable AI responses suitable for enterprise and compliance-driven use cases",
+                "Built a scalable **multi-format ingestion framework** (PDF, DOCX, PPTX, TXT, CSV) with structure- and page-aware parsing to preserve semantic context during retrieval",
+                "Designed a production-ready **full-stack system** with a responsive React dashboard, secure workspace isolation, append-only chat audit logs, and cloud deployments on **Vercel** and **Render**"
+            ],
+            "tech": [
+                "LLMs",
+                "RAG",
+                "FastAPI",
+                "PostgreSQL",
+                "pgvector",
+                "Azure OpenAI",
+                "Semantic Search",
+                "React",
+                "TypeScript"
+            ],
+            "metrics": [
+                "0 hallucinations by design",
+                "Citation-level grounding",
+                "Production-deployed",
+                "Multi-format document support"
+            ],
+            "links": {
+                "github": "https://github.com/AishwaryaBhargava/GroundedAI",
+                "live": "https://grounded-ai.vercel.app/",
+                "video": "https://drive.google.com/file/d/1G_Sgn7VoIOPcXYCG1CtFjQEBlcLfQF3u/view"
+            }
+        },
+        {
+            "id": "trunorth-ai",
+            "title": "TruNorth AI",
+            "subtitle": "AI-Powered Career Navigation Platform",
+            "primaryCategory": "ai-systems",
+            "categories": [
+                "ai-systems",
+                "full-stack"
+            ],
+            "description": "A mobile-first, **AI-powered career navigation platform** that guides users through career clarity, decision-making, and actionable next steps using structured questionnaires, **conversational AI (text + voice)**, and personalized recommendations.",
+            "highlights": [
+                "Architected and shipped an end-to-end **full-stack AI platform** using React + Vite and FastAPI, integrating PostgreSQL for structured data and **Pinecone** for semantic vector search to support scalable, real-world user workflows",
+                "Built a real-time **AI career coach** supporting both text and voice interactions using **OpenAI APIs**, **Whisper STT**, and **text-to-speech**, enabling seamless conversational guidance with low-latency responses",
+                "Designed and implemented **personalized career intelligence pipelines** combining multi-step questionnaires, conversational context, and AI reasoning to generate tailored career paths, strengths analysis, and recommendations",
+                "Developed a custom **AI confidence scoring engine** and **microsteps framework** (Explore, Reflect, Act) that converts AI insights into measurable progress and actionable user outcomes"
+            ],
+            "tech": [
+                "LLMs",
+                "FastAPI",
+                "React",
+                "PostgreSQL",
+                "Pinecone",
+                "Firebase Auth",
+                "WebSockets",
+                "Whisper",
+                "Text-to-Speech"
+            ],
+            "metrics": [
+                "Production-deployed",
+                "Text + voice AI coaching",
+                "End-to-end AI product",
+                "Real user workflows"
+            ],
+            "links": {
+                "github": "https://github.com/AishwaryaBhargava/TruNorthAI",
+                "live": "https://tru-north-ai.vercel.app/",
+                "video": "https://drive.google.com/file/d/1fAtq6bWuOWi0zvtdgghHjd-GRju0v9Dv/view"
+            }
+        },
+        {
+            "id": "ai-job-assistant",
+            "title": "AI Job Assistant",
+            "subtitle": "AI-Powered Resume Analysis & Job Matching Platform",
+            "primaryCategory": "ai-systems",
+            "categories": [
+                "ai-systems",
+                "full-stack"
+            ],
+            "description": "An AI-powered job assistance platform that analyzes resumes against job descriptions, generates ATS-friendly improvement insights, tracks applications, and provides personalized feedback through a modern full-stack web interface.",
+            "highlights": [
+                "Designed and built a full-stack AI platform using **React + Vite**, **FastAPI**, and **MongoDB Atlas**, enabling scalable resume analysis, job tracking, and real-time AI feedback workflows",
+                "Integrated **Azure OpenAI (DeepSeek R1)** to generate contextual resume feedback, job-specific improvement suggestions, and keyword optimization aligned with ATS requirements",
+                "Developed an **ATS scoring engine** that evaluates resume–job fit using relevance scoring, skill frequency analysis, and readability heuristics to quantify match quality",
+                "Implemented **JWT-based authentication** with protected routes and secure session handling to support multi-user access and personalized dashboards"
+            ],
+            "tech": [
+                "LLMs",
+                "FastAPI",
+                "React",
+                "MongoDB",
+                "Azure OpenAI",
+                "JWT Authentication",
+                "REST APIs"
+            ],
+            "metrics": [
+                "Production-deployed",
+                "ATS scoring engine",
+                "Resume–job matching",
+                "AI-driven feedback"
+            ],
+            "links": {
+                "github": "https://github.com/AishwaryaBhargava/ai-job-assistant",
+                "live": "https://ai-job-assistant-henna.vercel.app/",
+                "video": "https://drive.google.com/file/d/1jKPvf3hmgnI8sAoLczS0bVs-AOIjw9fQ/view"
+            }
+        },
+        {
+            "id": "live-transcriber",
+            "title": "Live Transcriber",
+            "subtitle": "Real-Time Audio Transcription Chrome Side Panel Extension",
+            "primaryCategory": "ai-systems",
+            "categories": [
+                "ai-systems",
+                "full-stack"
+            ],
+            "description": "A Chrome side-panel extension that performs real-time transcription from tab audio or microphone using streaming speech-to-text, with offline-first reliability, automatic failover, and interactive, exportable transcripts.",
+            "highlights": [
+                "Engineered an **offline-first transcription pipeline** using **IndexedDB** with queued audio persistence, prioritized replay, and retry logic to prevent data loss during network interruptions",
+                "Integrated **Deepgram real-time WebSocket transcription** with an automatic fallback to **HTTP chunked uploads**, ensuring uninterrupted streaming across unstable connectivity conditions",
+                "Designed a **word-level deduplication and reordering buffer** to maintain correct chronological transcripts without repeated or out-of-order tokens",
+                "Built an **interactive transcript experience** with clickable timestamps that seek the source tab and support exports to **TXT**, **SRT**, and **JSON** formats"
+            ],
+            "tech": [
+                "Chrome Extension MV3",
+                "WebSockets",
+                "Deepgram",
+                "IndexedDB",
+                "MediaRecorder",
+                "Node.js",
+                "Express",
+                "TypeScript"
+            ],
+            "metrics": [
+                "Real-time + offline support",
+                "WebSocket + HTTP fallback",
+                "Multi-source audio capture",
+                "Production-ready extension"
+            ],
+            "links": {
+                "github": "https://github.com/AishwaryaBhargava/live-transcriber",
+                "video": "https://drive.google.com/file/d/1qapdEo_WV2Z4H9bbe5AgWvA2iCYHtCca/view"
+            }
+        },
+        {
+            "id": "enhanced-weather-app",
+            "title": "Enhanced Weather Forecast Application",
+            "subtitle": "Responsive Weather Application with Advanced UI & Accessibility",
+            "primaryCategory": "full-stack",
+            "categories": [
+                "full-stack",
+                "foundations"
+            ],
+            "description": "A responsive weather forecast web application that delivers real-time hourly and 5-day forecasts using the OpenWeatherMap API, enhanced with advanced UI components, improved accessibility, and mobile-first design principles.",
+            "highlights": [
+                "Redesigned the application UI with **custom Bootstrap dialog modals**, replacing default alerts to significantly improve usability, accessibility, and visual consistency",
+                "Implemented **horizontally scrollable hourly and 5-day forecast views**, optimizing data readability and interaction across mobile, tablet, and desktop devices",
+                "Integrated **OpenWeatherMap API** to fetch real-time weather data and structured forecast rendering logic for clean, maintainable state updates",
+                "Refactored JavaScript into **modular, reusable components** and applied mobile-first responsive layouts to improve scalability and long-term maintainability"
+            ],
+            "tech": [
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "Bootstrap",
+                "OpenWeatherMap API",
+                "Responsive Design"
+            ],
+            "metrics": [
+                "Mobile-first responsive UI",
+                "Custom dialog modals",
+                "Hourly + 5-day forecasts",
+                "Production-deployed"
+            ],
+            "links": {
+                "github": "https://github.com/AishwaryaBhargava/PMA_Bootcamp_Assessment02",
+                "live": "https://pma-bootcamp-assessment02.vercel.app/"
+            }
+        },
+        {
+            "id": "tastetrails",
+            "title": "TasteTrails",
+            "subtitle": "Interactive Food & Travel Blog Platform",
+            "primaryCategory": "full-stack",
+            "categories": [
+                "full-stack",
+                "foundations"
+            ],
+            "description": "A dynamic food and travel blog platform that enables users to create, explore, and interact with curated travel stories and culinary experiences through authenticated dashboards, social features, and scalable backend design.",
+            "highlights": [
+                "Designed and implemented a **modular blog engine** with support for posts, likes, comments, and edits using **Node.js**, **Express**, and **MongoDB**, enabling rich user interaction and content management",
+                "Built responsive user-facing pages (Home, Create, Detail) using **EJS templates** with mobile-first layouts to ensure accessibility and usability across devices",
+                "Implemented **secure session-based authentication** using **express-session** and cookies, protecting user data while enabling personalized dashboards and workflows",
+                "Optimized RESTful routes and **MongoDB schema design** to support scalable blog operations with low-latency reads and writes"
+            ],
+            "tech": [
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+                "EJS",
+                "JavaScript",
+                "HTML",
+                "CSS"
+            ],
+            "metrics": [
+                "Authenticated multi-user platform",
+                "CRUD blog workflows",
+                "Session-based security",
+                "Scalable backend design"
+            ],
+            "links": {}
+        },
+        {
+            "id": "hadoop-distributed-computing",
+            "title": "Hadoop Distributed Computing Environment",
+            "subtitle": "Containerized Hadoop & MapReduce Framework with Docker",
+            "primaryCategory": "distributed-systems",
+            "categories": [
+                "distributed-systems",
+                "foundations"
+            ],
+            "description": "A containerized Hadoop distributed computing environment built with Docker, enabling scalable big data processing using HDFS, YARN, and MapReduce for text analytics and log processing in a reproducible setup.",
+            "highlights": [
+                "Architected a **Dockerized Hadoop environment** with automated cluster setup, enabling one-command initialization of **HDFS**, **YARN**, and MapReduce services for reproducible big data experimentation",
+                "Developed **MapReduce programs** for large-scale **n-gram frequency analysis** and **log processing**, demonstrating efficient distributed computation over high-volume text datasets",
+                "Configured a functional **single-node Hadoop cluster** with optimized HDFS storage and YARN resource management to simulate real-world distributed system workflows",
+                "Applied **distributed systems best practices** to optimize MapReduce performance and data handling, ensuring reliable execution across containerized nodes"
+            ],
+            "tech": [
+                "Hadoop",
+                "Docker",
+                "MapReduce",
+                "HDFS",
+                "YARN",
+                "Python",
+                "Shell Scripting"
+            ],
+            "metrics": [
+                "One-command cluster setup",
+                "Containerized big data stack",
+                "Distributed text processing",
+                "Reproducible system design"
+            ],
+            "links": {
+                "github": "https://github.com/AishwaryaBhargava/Hadoop-Distributed-Computing-Environment-with-Docker-Implementation"
+            }
+        },
+        {
+            "id": "verifiable-cassandra",
+            "title": "Blockchain-assisted Verifiable Cassandra",
+            "subtitle": "Tamper-Proof Distributed Database with Blockchain Verification",
+            "primaryCategory": "distributed-systems",
+            "categories": [
+                "distributed-systems",
+                "foundations"
+            ],
+            "description": "A proof-of-concept system that integrates a distributed Cassandra database with blockchain-backed verification to ensure data integrity and authenticity for outsourced database services using cryptographic proofs.",
+            "highlights": [
+                "Designed a **secure distributed system architecture** combining **Cassandra**, **Merkle Hash Trees**, and the **Ethereum blockchain** to enable cryptographic verification of queried data",
+                "Implemented **blockchain-backed integrity checks** by storing Merkle roots on Ethereum via smart contracts, ensuring immutable and decentralized verification guarantees",
+                "Built a **scalable NoSQL data layer** using Cassandra to support high availability and distributed storage while enabling verifiability of large datasets",
+                "Developed and tested **attack simulations** using benign and malicious client models to demonstrate detection of unauthorized data tampering"
+            ],
+            "tech": [
+                "Cassandra",
+                "Blockchain",
+                "Ethereum",
+                "Merkle Trees",
+                "Python",
+                "Distributed Systems",
+                "NoSQL"
+            ],
+            "metrics": [
+                "Cryptographic data verification",
+                "Tamper-detection via blockchain",
+                "Distributed NoSQL storage",
+                "Security-focused system design"
+            ],
+            "links": {
+                "github": "https://github.com/AishwaryaBhargava/Blockchain-assisted-Verifiable-Cassandra"
+            }
+        },
+        {
+            "id": "archaeology-dbms",
+            "title": "Center for Comparative Archaeology – DBMS",
+            "subtitle": "Collaborative Research Database Management System",
+            "primaryCategory": "full-stack",
+            "categories": [
+                "full-stack",
+                "foundations"
+            ],
+            "description": "A web-based Database Management System built to support global archaeological research by enabling secure access, contribution, and management of datasets through role-based workflows and a scalable backend.",
+            "highlights": [
+                "Architected a **full-stack DBMS** using **Flask** and **MySQL**, designed to securely manage archaeological datasets while supporting concurrent access by global researchers",
+                "Built an **intuitive research-focused UI** with **HTML**, **CSS**, and **JavaScript**, enabling users to browse, download, and contribute datasets with minimal friction",
+                "Implemented **role-based workflows** including guest access, authenticated researcher contributions, and moderator dashboards for dataset review and governance",
+                "Applied **database optimization and security best practices** to ensure data integrity, controlled access, and reliable system performance for research use cases"
+            ],
+            "tech": [
+                "Flask",
+                "MySQL",
+                "Python",
+                "JavaScript",
+                "HTML",
+                "CSS"
+            ],
+            "metrics": [
+                "Multi-role access control",
+                "Research-grade DBMS",
+                "Global collaboration support",
+                "Production-ready backend"
+            ],
+            "links": {
+                "github": "https://github.com/AishwaryaBhargava/Center-for-Comparative-Archaeology---DBMS"
+            }
+        },
+        {
+            "id": "paint-product-prediction",
+            "title": "Predictive Modeling for Paint Product Popularity",
+            "subtitle": "Machine Learning Models for Market Trend & Property Forecasting",
+            "primaryCategory": "ai-systems",
+            "categories": [
+                "ai-systems",
+                "foundations"
+            ],
+            "description": "A machine learning project that predicts paint color popularity and physical properties using statistical and ensemble models, enabling data-driven insights for product planning and market strategy.",
+            "highlights": [
+                "Developed and optimized **machine learning models** in **R** using **Random Forest**, **Gradient Boosting Machines (GBM)**, and **Logistic Regression** to forecast paint popularity and material properties",
+                "Performed in-depth **exploratory data analysis and feature engineering** to uncover patterns in consumer preferences and product characteristics",
+                "Achieved strong predictive performance with **RMSE of 0.011** and **ROC AUC of 0.897**, demonstrating high accuracy and reliable classification capability",
+                "Translated model outputs into **actionable business insights** that supported faster product development cycles and data-backed decision-making"
+            ],
+            "tech": [
+                "R",
+                "Machine Learning",
+                "Random Forest",
+                "Gradient Boosting",
+                "Logistic Regression",
+                "Data Visualization"
+            ],
+            "metrics": [
+                "RMSE: 0.011",
+                "ROC AUC: 0.897",
+                "Ensemble modeling",
+                "Predictive analytics"
+            ],
+            "links": {}
+        },
+        {
+            "id": "end-to-end-invoice-processing",
+            "title": "End-to-End Invoice Processing",
+            "subtitle": "AI-Driven RPA System for Automated Financial Operations",
+            "primaryCategory": "automation-rpa",
+            "categories": [
+                "automation-rpa",
+                "ai-systems"
+            ],
+            "description": "An RPA and AI-driven system that automates the complete invoice processing workflow—from email ingestion to data extraction, verification, and delivery—significantly improving accuracy, speed, and fraud prevention in financial operations.",
+            "highlights": [
+                "Designed and implemented a **fully automated invoice processing pipeline** using **UiPath** and **Python**, handling invoice ingestion directly from Gmail and eliminating manual intervention",
+                "Applied **machine learning–based data extraction and validation** techniques to achieve **99.8% accuracy**, dramatically reducing processing errors and fraud risk",
+                "Built robust **verification and exception-handling logic** to ensure data integrity across end-to-end financial workflows",
+                "Optimized operational throughput by **reducing manual effort and cycle time**, delivering measurable cost and efficiency gains for finance teams"
+            ],
+            "tech": [
+                "UiPath",
+                "Python",
+                "Robotic Process Automation",
+                "Machine Learning"
+            ],
+            "metrics": [
+                "99.8% extraction accuracy",
+                "End-to-end automation",
+                "Reduced fraud risk",
+                "Significant time savings"
+            ],
+            "links": {
+                "github": "https://github.com/AishwaryaBhargava/End-to-End-Invoice-Processing"
+            }
+        },
+        {
+            "id": "gre-university-shortlisting",
+            "title": "GRE University & Course Shortlisting Automation",
+            "subtitle": "RPA Solution for Automated University & Course Recommendations",
+            "primaryCategory": "automation-rpa",
+            "categories": [
+                "automation-rpa",
+                "foundations"
+            ],
+            "description": "An RPA-driven automation that streamlines university and course shortlisting for prospective students by collecting academic profiles, scraping relevant education portals, and delivering personalized recommendations via automated reports.",
+            "highlights": [
+                "Designed an **interactive form-based UI** using **UiPath** to capture student profiles including GRE scores, GPA, preferred countries, and courses, improving data accuracy and usability",
+                "Built **dynamic web scraping workflows** to extract university and course data from multiple education platforms based on user-defined criteria",
+                "Automated **data aggregation and reporting** by compiling shortlisted results into structured Excel outputs and emailing personalized reports directly to users"
+            ],
+            "tech": [
+                "UiPath",
+                "Robotic Process Automation",
+                "Web Scraping",
+                "Excel Automation"
+            ],
+            "metrics": [
+                "Personalized shortlisting",
+                "End-to-end RPA workflow",
+                "Zero manual effort",
+                "Automated reporting"
+            ],
+            "links": {
+                "github": "https://github.com/AishwaryaBhargava/GRE-University-and-profile-buildiing-course-shortlisting"
+            }
+        },
+        {
+            "id": "invoice-data-extraction",
+            "title": "Invoice Data Extraction Automation",
+            "subtitle": "RPA-Based PDF Invoice Data Extraction System",
+            "primaryCategory": "automation-rpa",
+            "categories": [
+                "automation-rpa",
+                "foundations"
+            ],
+            "description": "An RPA solution that automates the extraction of structured data and tables from invoice PDFs received via email, using OCR and rule-based processing to streamline financial data handling.",
+            "highlights": [
+                "Automated **email monitoring and PDF retrieval** using **UiPath**, filtering invoice emails based on subject rules and downloading attachments without manual intervention",
+                "Applied **OCR-based data extraction** and **string manipulation logic** to accurately capture invoice fields from semi-structured PDF documents",
+                "Implemented **Excel-based data organization workflows** to categorize, store, and prepare extracted invoice data for downstream financial analysis"
+            ],
+            "tech": [
+                "UiPath",
+                "Robotic Process Automation",
+                "OCR",
+                "PDF Processing",
+                "Excel Automation"
+            ],
+            "metrics": [
+                "Automated PDF ingestion",
+                "OCR-based extraction",
+                "Structured Excel outputs",
+                "Reduced manual effort"
+            ],
+            "links": {
+                "github": "https://github.com/AishwaryaBhargava/Data-Scrapping-from-PDFs"
+            }
+        },
+        {
+            "id": "github-file-segregation",
+            "title": "Download & Segregate Files from GitHub",
+            "subtitle": "RPA Automation for Intelligent File Downloading & Organization",
+            "primaryCategory": "automation-rpa",
+            "categories": [
+                "automation-rpa",
+                "foundations"
+            ],
+            "description": "An RPA automation that downloads files from GitHub repositories and intelligently organizes them into structured folders based on filename patterns, improving file management efficiency and reducing manual overhead.",
+            "highlights": [
+                "Built an **end-to-end UiPath automation** to navigate GitHub repositories, identify target files, and download them without manual intervention",
+                "Implemented **advanced string manipulation logic** to parse filenames and dynamically create folder structures for accurate file segregation",
+                "Designed a **scalable local storage organization system** that improves file discoverability and reduces errors in ongoing project workflows"
+            ],
+            "tech": [
+                "UiPath",
+                "Robotic Process Automation",
+                "GitHub Automation",
+                "String Manipulation",
+                "File System Automation"
+            ],
+            "metrics": [
+                "Automated GitHub downloads",
+                "Dynamic folder creation",
+                "Zero manual sorting",
+                "Improved file retrieval"
+            ],
+            "links": {
+                "github": "https://github.com/AishwaryaBhargava/Download-and-segregate-the-files-based-on-the-name-from-Github"
+            }
+        },
+        {
+            "id": "ecommerce-data-scraping",
+            "title": "E-Commerce Data Scraping Automation",
+            "subtitle": "RPA System for Automated Product Data Extraction",
+            "primaryCategory": "automation-rpa",
+            "categories": [
+                "automation-rpa",
+                "foundations"
+            ],
+            "description": "An RPA-driven automation that extracts product information from major e-commerce platforms based on user-defined criteria, enabling structured data collection for price comparison and market analysis.",
+            "highlights": [
+                "Built an **end-to-end UiPath automation** that navigates Amazon and Flipkart, searches products based on user input, and extracts names, prices, and URLs without manual effort",
+                "Implemented a **user-driven execution flow** allowing dynamic platform selection and device-based searches, improving flexibility and reuse of the automation",
+                "Designed a **scalable data pipeline** that stores scraped outputs in structured Excel sheets and uploads them to orchestrator queues for downstream processing"
+            ],
+            "tech": [
+                "UiPath",
+                "Robotic Process Automation",
+                "Web Scraping",
+                "Excel Automation",
+                "Queue-based Processing"
+            ],
+            "metrics": [
+                "80%+ efficiency improvement",
+                "Automated price comparison",
+                "Consistent structured outputs",
+                "Scalable scraping design"
+            ],
+            "links": {
+                "github": "https://github.com/AishwaryaBhargava/Scrape-data-from-e-commerce-website"
+            }
+        },
+        {
+            "id": "food-billing-system",
+            "title": "Food Billing System",
+            "subtitle": "Python GUI Application for Order Processing & Billing",
+            "primaryCategory": "foundations",
+            "categories": [
+                "foundations"
+            ],
+            "description": "A Python-based GUI application that streamlines food ordering and billing by enabling item selection, quantity management, real-time total calculation, and automated receipt generation through an intuitive interface.",
+            "highlights": [
+                "Built an **end-to-end billing application** using **Python** and **Tkinter**, enabling users to select food items, adjust quantities, and view real-time cost calculations",
+                "Implemented **dynamic order processing logic** to handle multiple item selections simultaneously while maintaining accurate pricing and total aggregation",
+                "Designed an **automated receipt generation system** that produces detailed bills with customer details, itemized purchases, and totals, supporting save, print, and email workflows"
+            ],
+            "tech": [
+                "Python",
+                "Tkinter",
+                "GUI Development"
+            ],
+            "metrics": [
+                "Real-time billing calculations",
+                "Automated receipt generation",
+                "Reduced manual errors",
+                "User-friendly GUI"
+            ],
+            "links": {
+                "github": "https://github.com/AishwaryaBhargava/food_billing_system"
+            }
+        },
+        {
+            "id": "license-plate-recognition",
+            "title": "License Plate Recognition & Detection",
+            "subtitle": "Machine Learning System for Vehicle Plate Identification",
+            "primaryCategory": "ai-systems",
+            "categories": [
+                "ai-systems",
+                "foundations"
+            ],
+            "description": "A machine learning–based system that detects and recognizes vehicle license plates from images using image preprocessing, character segmentation, and classification to enable accurate vehicle identification.",
+            "highlights": [
+                "Designed and implemented a **computer vision pipeline** using **Python**, **OpenCV**, and **NumPy** to preprocess vehicle images, enhance contrast, and isolate license plate regions",
+                "Applied **K-Nearest Neighbors (KNN)** for character-level classification, enabling accurate recognition of alphanumeric license plate characters",
+                "Optimized image processing and recognition logic to achieve robust performance across varying lighting conditions and viewing angles"
+            ],
+            "tech": [
+                "Python",
+                "Machine Learning",
+                "OpenCV",
+                "NumPy",
+                "KNN"
+            ],
+            "metrics": [
+                "F1 score: 92.56%",
+                "High-precision character recognition",
+                "Robust image preprocessing",
+                "Real-world applicability"
+            ],
+            "links": {
+                "github": "https://github.com/AishwaryaBhargava/license-plate-recognition-and-detection"
+            }
+        },
+        {
+            "id": "automation-tech-setup",
+            "title": "Automation for Setting Up Different Technologies",
+            "subtitle": "Infrastructure Automation Framework for Multi-Tech Stack Deployment",
+            "primaryCategory": "automation-rpa",
+            "categories": [
+                "automation-rpa",
+                "distributed-systems",
+                "foundations"
+            ],
+            "description": "An automation framework that streamlines the setup and configuration of complex technology stacks—including Docker, Hadoop, and multiple cloud service models—using Python and Ansible to reduce setup time and configuration errors.",
+            "highlights": [
+                "Built **Python and Ansible–based automation** to provision and configure diverse technology stacks, significantly reducing manual setup effort and deployment complexity",
+                "Automated configuration of **Hadoop components** (job trackers, task trackers) and **Docker environments**, enabling rapid experimentation and consistent infrastructure initialization",
+                "Designed a **flexible, reusable automation framework** supporting multiple cloud service models (**CaaS, SaaS, PaaS, STaaS**), adaptable to both enterprise and educational use cases"
+            ],
+            "tech": [
+                "Python",
+                "Ansible",
+                "Docker",
+                "Hadoop",
+                "Cloud Computing",
+                "Infrastructure Automation"
+            ],
+            "metrics": [
+                "Rapid multi-stack provisioning",
+                "Reduced setup errors",
+                "Reusable automation scripts",
+                "Scalable infrastructure design"
+            ],
+            "links": {
+                "github": "https://github.com/AishwaryaBhargava/automation-of-different-technologies"
+            }
+        },
+        {
+            "id": "face-recognition-ml",
+            "title": "Face Recognition using Machine Learning",
+            "subtitle": "Real-Time Biometric Authentication System",
+            "primaryCategory": "ai-systems",
+            "categories": [
+                "ai-systems",
+                "foundations"
+            ],
+            "description": "A machine learning–based face recognition system that authenticates users in real time using webcam input, leveraging computer vision techniques to enable secure, biometric-based access control.",
+            "highlights": [
+                "Built a **real-time face recognition pipeline** using **Python** and **OpenCV**, training Haar Cascade classifiers to detect and recognize authorized user faces",
+                "Implemented **live webcam-based authentication**, enabling dynamic user verification and reducing reliance on traditional password-based security",
+                "Integrated the recognition system into a **secure website access workflow**, demonstrating practical application of biometric authentication in digital security"
+            ],
+            "tech": [
+                "Python",
+                "Machine Learning",
+                "OpenCV",
+                "Computer Vision",
+                "Haar Cascade Classifiers"
+            ],
+            "metrics": [
+                "Real-time face authentication",
+                "Biometric security integration",
+                "Webcam-based recognition",
+                "Reduced password dependency"
+            ],
+            "links": {
+                "github": "https://github.com/AishwaryaBhargava/face-recognition"
+            }
+        }
+    ]
+}

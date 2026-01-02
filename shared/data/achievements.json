@@ -1,0 +1,153 @@
+{
+  "certifications": [
+    {
+      "id": "aws-sagemaker",
+      "title": "Amazon SageMaker AI – Getting Started",
+      "issuer": "AWS",
+      "date": "December 2025"
+    },
+    {
+      "id": "prompt-engineering-aws",
+      "title": "Foundations of Prompt Engineering",
+      "issuer": "AWS",
+      "date": "December 2025"
+    },
+    {
+      "id": "google-prompting",
+      "title": "Google Prompting Essentials",
+      "issuer": "Google",
+      "date": "December 2025",
+      "credentialUrl": "https://www.credly.com/go/JDqd1tZR"
+    },
+    {
+      "id": "google-ai-essentials",
+      "title": "Google AI Essentials",
+      "issuer": "Google",
+      "date": "December 2025",
+      "credentialUrl": "https://www.credly.com/go/IlJu3cp3"
+    },
+    {
+      "id": "ansible-specialist",
+      "title": "Red Hat Certified Specialist in Ansible Automation",
+      "issuer": "Red Hat",
+      "date": "July 2021",
+      "expiry": "June 2028",
+      "credentialId": "180-136-061"
+    },
+    {
+      "id": "rhcsa",
+      "title": "Red Hat Certified System Administrator (RHCSA)",
+      "issuer": "Red Hat",
+      "date": "June 2018",
+      "expiry": "June 2021",
+      "credentialId": "180-136-061"
+    }
+  ],
+
+  "achievements": [
+    {
+      "id": "anthony-debons-scholarship",
+      "type": "Scholarship",
+      "title": "Anthony Debons Scholarship",
+      "organization": "University of Pittsburgh – School of Computing and Information",
+      "date": "May 2025",
+      "description": "Awarded for outstanding academic excellence in the MS Information Science program"
+    },
+    {
+      "id": "james-williams-award",
+      "type": "Award",
+      "title": "James G. Williams Award",
+      "organization": "University of Pittsburgh – School of Computing and Information",
+      "date": "May 2025",
+      "description": "Recognized for academic excellence, leadership, and contributions to the MSIS community"
+    },
+    {
+      "id": "ghc-2024-scholar",
+      "type": "Scholarship",
+      "title": "GHC 2024 Scholar",
+      "organization": "University of Pittsburgh – School of Computing and Information",
+      "date": "September 2024",
+      "description": "Fully sponsored scholar selected for academic excellence and leadership in computing"
+    },
+    {
+      "id": "be-bold-ecard",
+      "type": "Award",
+      "title": "Be Bold E-Card",
+      "organization": "C1",
+      "date": "July 2024"
+    },
+    {
+      "id": "be-bold-award",
+      "type": "Award",
+      "title": "Be Bold Award",
+      "organization": "C1",
+      "date": "July 2024"
+    },
+    {
+      "id": "be-one-ecard",
+      "type": "Award",
+      "title": "Be One E-Card",
+      "organization": "C1",
+      "date": "June 2024"
+    },
+    {
+      "id": "champ-dec-2022",
+      "type": "Award",
+      "title": "CHAMP of the Month",
+      "organization": "Allianz Partners (AWP)",
+      "date": "December 2022"
+    },
+    {
+      "id": "champ-june-2022",
+      "type": "Award",
+      "title": "CHAMP of the Month",
+      "organization": "Allianz Partners (AWP)",
+      "date": "June 2022"
+    },
+    {
+      "id": "spot-april-2021",
+      "type": "Award",
+      "title": "SPOT of the Month",
+      "organization": "Utopia Global Inc.",
+      "date": "April 2021"
+    },
+    {
+      "id": "spot-aug-2020",
+      "type": "Award",
+      "title": "SPOT of the Month",
+      "organization": "Utopia Global Inc.",
+      "date": "August 2020"
+    },
+    {
+      "id": "rising-star",
+      "type": "Award",
+      "title": "Rising Star",
+      "organization": "Red Hat Inc. & LinuxWorld Informatics Pvt. Ltd.",
+      "date": "February 2019"
+    }
+  ],
+
+  "publications": [
+    {
+      "id": "invoice-processing-rpa-ai",
+      "title": "Invoice Processing using Robotic Process Automation (UiPath tool) and Artificial Intelligence",
+      "author": "Aishwarya Bhargava",
+      "publisher": "International Journal of Scientific & Engineering Research (IJSER)",
+      "date": "May 2022",
+      "status": "Published",
+      "url": "https://drive.google.com/file/d/1tLAOZezZn89Lip5pIdyfYRWfN4FkaQpQ/view?usp=sharing",
+      "description": "Published research on AI-driven invoice automation for finance operations"
+    }
+  ],
+
+  "talks": [
+    {
+      "id": "tedp-rpa-speaker",
+      "type": "Guest Speaker",
+      "title": "TEDP on Robotic Process Automation",
+      "organization": "JECRC University, Jaipur",
+      "date": "June 2021",
+      "description": "Invited speaker sharing industry experience and future scope of RPA"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+    "education": [
+        {
+            "id": "upitt-ms",
+            "institution": "University of Pittsburgh",
+            "location": "Pittsburgh, Pennsylvania, USA",
+            "degree": "Master of Science",
+            "major": "Information Science",
+            "duration": "August 2023 – May 2025",
+            "gpa": "3.8 / 4.0",
+            "keyCoursework": [
+                "Machine Learning",
+                "Neural Networks",
+                "Algorithm Design",
+                "Database Management Systems",
+                "Cloud Computing",
+                "Information Security & Privacy",
+                "Human–Robot Interaction",
+                "Information Visualization",
+                "Systems Analysis & Design"
+            ],
+            "honorsAndLeadership": [
+                {
+                    "label": "Anthony Debons Scholarship",
+                    "icon": "trophy",
+                    "description": "Awarded for outstanding academic excellence in the MSIS program (May 2025)"
+                },
+                {
+                    "label": "James G. Williams Award",
+                    "icon": "award",
+                    "description": "Recognized for exceptional academic performance, leadership, and community impact (May 2025)"
+                },
+                {
+                    "label": "GHC 2024 Scholar",
+                    "icon": "star",
+                    "description": "Fully sponsored attendee at Grace Hopper Celebration for academic excellence and leadership"
+                },
+                {
+                    "label": "Vice President – SCIGSO",
+                    "icon": "leadership",
+                    "description": "Led academic growth, professional development, and community initiatives"
+                },
+                {
+                    "label": "Global Graduate Mentor",
+                    "icon": "globe",
+                    "description": "Guided international students through academic and campus transition"
+                }
+            ]
+        },
+        {
+            "id": "muj-btech",
+            "institution": "Manipal University Jaipur",
+            "location": "Jaipur, Rajasthan, India",
+            "degree": "Bachelor of Technology",
+            "major": "Computer Science & Engineering",
+            "duration": "August 2016 – May 2020",
+            "gpa": "7.38 / 10.0",
+            "keyCoursework": [
+                "Data Structures",
+                "Design & Analysis of Algorithms",
+                "Operating Systems",
+                "Database Management Systems",
+                "Computer Networks",
+                "Machine Learning",
+                "Big Data Analytics"
+            ],
+            "honorsAndLeadership": [
+                {
+                    "label": "Publicity & Promotions – Oneiros’16",
+                    "icon": "megaphone",
+                    "description": "Boosted campus event engagement through creative outreach and marketing campaigns"
+                },
+                {
+                    "label": "Publicity & Promotions – Techideate’17",
+                    "icon": "megaphone",
+                    "description": "Executed targeted promotions contributing to record attendance"
+                },
+                {
+                    "label": "Green Club Member",
+                    "icon": "leaf",
+                    "description": "Participated in sustainability initiatives and environmental awareness programs"
+                }
+            ]
+        }
+    ]
+}
