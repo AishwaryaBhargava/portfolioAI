@@ -6,6 +6,25 @@
       "category": "industry",
       "items": [
         {
+          "company": "Career Love, Inc.",
+          "logo": "career-love.jpg",
+          "role": "Lead Full-Stack Software Engineer",
+          "type": "Contract",
+          "duration": "Jan 2026 – Present",
+          "highlights": [
+            "Lead **end-to-end development** of production-grade web applications, owning system architecture, feature implementation, and delivery across frontend and backend stacks.",
+            "Design and integrate **AI-powered product features and APIs**, embedding intelligent workflows into core user experiences aligned with business and product goals.",
+            "Architect **scalable, secure, and maintainable systems**, enforcing high standards for code quality, performance, and reliability.",
+            "Collaborate directly with founders and product leadership to translate product vision into technical execution, enabling rapid iteration and feature launches.",
+            "Operate as a **fractional senior engineer**, independently managing deliverables, timelines, and ownership across multiple initiatives."
+          ],
+          "metrics": [
+            "Senior-level system ownership",
+            "AI-integrated product development",
+            "Senior engineering leadership"
+          ]
+        },
+        {
           "company": "PM Accelerator",
           "logo": "pm-accelerator.jpg",
           "role": "AI Engineer Intern",
