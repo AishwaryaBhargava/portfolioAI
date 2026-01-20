@@ -1,6 +1,27 @@
 {
   "certifications": [
     {
+      "id": "databricks-ai-agent-fundamentals",
+      "title": "Databricks Academy Accreditation - AI Agent Fundamentals",
+      "issuer": "Databricks",
+      "date": "January 2026",
+      "credentialUrl": "https://credentials.databricks.com/960a165c-f7a8-44dc-991b-6b33fb590028#acc.PW0wG5bJ"
+    },
+    {
+      "id": "databricks-fundamentals",
+      "title": "Databricks Academy Accreditation - Databricks Fundamentals",
+      "issuer": "Databricks",
+      "date": "January 2026",
+      "credentialUrl": "https://credentials.databricks.com/78a69ab5-a6e4-4e09-816e-06cac5a43e2e#acc.Mb32tJCU"
+    },
+    {
+      "id": "databricks-genai-fundamentals",
+      "title": "Databricks Academy Accreditation - Generative AI Fundamentals",
+      "issuer": "Databricks",
+      "date": "January 2026",
+      "credentialUrl": "https://credentials.databricks.com/79d4f13c-67c8-4796-8f7c-ef180721a5d4#acc.xDWJLEjh"
+    },
+    {
       "id": "aws-sagemaker",
       "title": "Amazon SageMaker AI – Getting Started",
       "issuer": "AWS",
